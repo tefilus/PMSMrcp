@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk 7.4</creator>
+	<majorversion type="key">7</majorversion>
+	<minorversion type="key">4</minorversion>
+	<maintenanceversion type="key">0</maintenanceversion>
+	<specialbuildversion type="key"/>
+	<releasename type="key">2021-A</releasename>
+	<project>
+		<Creator type="key">ControlDesk</Creator>
+		<MigrationHistory type="key"/>
+		<Name type="key">Project_PMSM.CDP</Name>
+		<DisplayName type="key">Project_PMSM</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">586905120</UniqueID>
+		<EntityID type="key">{684396E0-7D26-42DA-9AED-B062F7E54CE1}</EntityID>
+		<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">Project_PMSM</Name>
+			<DisplayName type="key">Project_PMSM</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">178061863</UniqueID>
+			<EntityID type="key">{AAB6A99D-E64E-45FB-9489-2AA5090223AE}</EntityID>
+			<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.docx,.pdf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">61400244</UniqueID>
+				<EntityID type="key">{1D839995-D35C-4AB9-97F3-07B650157314}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.docx,.pdf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">144901379</UniqueID>
+				<EntityID type="key">{2F7D98F5-59E4-4043-8863-BBD845903DCD}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">432877307</UniqueID>
+				<EntityID type="key">{B98EE88F-C72D-4C8B-AAE0-7249CC264269}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">Project_PMSM.vdb</Name>
+					<DisplayName type="key">C:\Project_PMSM\Variable Descriptions\Project_PMSM.vdb</DisplayName>
+					<Path type="key">.\Variable Descriptions</Path>
+					<Flags type="key">276</Flags>
+					<Type type="key">18</Type>
+					<UniqueID type="key">814208388</UniqueID>
+					<EntityID type="key">{538754B1-23FA-4A1B-A5D5-E71964A066FC}</EntityID>
+					<ItemInfoDate type="key">5/8/2024 9:25:54 AM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">pmsm_demo.sdf</Name>
+					<DisplayName type="key">pmsm_demo.sdf</DisplayName>
+					<Path type="key">.\Variable Descriptions\pmsm_demo.sdf</Path>
+					<Flags type="key">18704</Flags>
+					<Type type="key">7</Type>
+					<UniqueID type="key">986028646</UniqueID>
+					<EntityID type="key">{889979D8-9B7C-4BF7-A0EF-66E9A8541451}</EntityID>
+					<ItemInfoDate type="key">5/8/2024 9:25:54 AM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Original file added from ..\demo\ACMC_Demo\ACMC_MicroLabBox\PMSM_Demo\work\pmsm_demo.sdf [2021-06-22 09:41:12 (UTC)]
+</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">pmsm_demo.trc</Name>
+						<DisplayName type="key">pmsm_demo.trc</DisplayName>
+						<Path type="key">.\Variable Descriptions\pmsm_demo.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">426467534</UniqueID>
+						<EntityID type="key">{2B0D1A48-68B3-4205-BD68-531FC5107FB6}</EntityID>
+						<ItemInfoDate type="key">5/8/2024 9:25:54 AM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">pmsm_demo.map</Name>
+						<DisplayName type="key">pmsm_demo.map</DisplayName>
+						<Path type="key">.\Variable Descriptions\pmsm_demo.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">777140440</UniqueID>
+						<EntityID type="key">{1B72FBF5-16B6-4C93-870F-2D4A2F203829}</EntityID>
+						<ItemInfoDate type="key">5/8/2024 9:25:54 AM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">pmsm_demo.rta</Name>
+						<DisplayName type="key">pmsm_demo.rta</DisplayName>
+						<Path type="key">.\Variable Descriptions\pmsm_demo.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">30</Type>
+						<UniqueID type="key">736710913</UniqueID>
+						<EntityID type="key">{B923B888-1296-4FEE-888E-03BD3456C296}</EntityID>
+						<ItemInfoDate type="key">5/8/2024 9:25:54 AM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">.vfe</Targets>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">2304</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">801385856</UniqueID>
+				<EntityID type="key">{C325729A-4A58-4AF4-8255-E126503F8304}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">454475666</UniqueID>
+				<EntityID type="key">{E5140825-DEA4-4A7A-A454-F886A9F3AFCC}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">interpreter,.py</Targets>
+				<Docs type="key">.py</Docs>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">817316523</UniqueID>
+				<EntityID type="key">{37EA8F54-3AC8-4AAB-9572-046223013443}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.py</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Description Sets</Name>
+				<DisplayName type="key">Signal Description Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">763126142</UniqueID>
+				<EntityID type="key">{B7C90F29-417E-43F9-94DA-215EF1D55235}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">AutomationCustomData.json</Name>
+			<DisplayName type="key">AutomationCustomData.json</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">537266250</UniqueID>
+			<EntityID type="key">{D7DB2F4B-0F8F-4CF2-9806-44B34B9F36F2}</EntityID>
+			<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<ExtendedFlags type="key">4</ExtendedFlags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">490408729</UniqueID>
+			<EntityID type="key">{A9D7CB00-3531-4483-A68F-4C57E9507A3A}</EntityID>
+			<ItemInfoDate type="key">5/8/2024 9:25:54 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			<item>
+				<Name type="key">Project.events</Name>
+				<DisplayName type="key">Project.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">988636266</UniqueID>
+				<EntityID type="key">{6E763A3C-F7A1-4EBB-8D40-322D348603EA}</EntityID>
+				<ItemInfoDate type="key">5/8/2024 9:25:54 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+			</item>
+		</item>
+	</project>
+	<experiments>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<MigrationHistory type="key"/>
+			<Name type="key">PMSM_1.CDE</Name>
+			<DisplayName type="key">PMSM_1</DisplayName>
+			<Path type="key">.\PMSM_1</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">44356359</UniqueID>
+			<EntityID type="key">{C8008C7E-8A35-4EF8-8E4D-5C840107A0E1}</EntityID>
+			<ItemInfoDate type="key">5/8/2024 9:25:53 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">PC</ItemInfoAuthor>
+		</experiment>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<MigrationHistory type="key"/>
+			<Name type="key">s.CDE</Name>
+			<DisplayName type="key">s</DisplayName>
+			<Path type="key">.\s</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">361275056</UniqueID>
+			<EntityID type="key">{861930F5-D04A-458A-9084-B686205DB1CD}</EntityID>
+			<ItemInfoDate type="key">5/16/2024 2:11:27 PM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+		</experiment>
+	</experiments>
+	<BusNavigator/>
+	<VariablesManagement/>
+	<UserManager/>
+	<XILAPIEESPort/>
+	<SignalEditor/>
+	<Interpreter>
+		<PythonVersion type="key">3.9</PythonVersion>
+	</Interpreter>
+	<ProjectExperiment>
+		<LastActiveExperiment type="key">PMSM_1</LastActiveExperiment>
+	</ProjectExperiment>
+	<Instrumentation Version="1">
+		<UniqueIds Version="3">
+			<Count type="key">11</Count>
+			<File1 type="key">s/Layout1</File1>
+			<Id1 type="key">0</Id1>
+			<File2 type="key">PMSM_1/Motor Control</File2>
+			<Id2 type="key">1</Id2>
+			<File3 type="key">PMSM_1/E-Motor Control</File3>
+			<Id3 type="key">13</Id3>
+			<File4 type="key">PMSM_1/control_pmsm</File4>
+			<Id4 type="key">7</Id4>
+			<File5 type="key">PMSM_1/Speed_Plotting</File5>
+			<Id5 type="key">2</Id5>
+			<File6 type="key">PMSM_1/Current Plotting</File6>
+			<Id6 type="key">3</Id6>
+			<File7 type="key">PMSM_1/Open Loop</File7>
+			<Id7 type="key">4</Id7>
+			<File8 type="key">PMSM_1/Load Control</File8>
+			<Id8 type="key">5</Id8>
+			<File9 type="key">PMSM_1/Speed_DEMO</File9>
+			<Id9 type="key">6</Id9>
+			<File10 type="key">PMSM_1/Current_DEMO</File10>
+			<Id10 type="key">8</Id10>
+			<File11 type="key">PMSM_1/Open-Loop</File11>
+			<Id11 type="key">9</Id11>
+		</UniqueIds>
+	</Instrumentation>
+	<DiagnosticsManagement/>
+	<PlatformManagement/>
+	<MeasurementConfiguration/>
+	<MeasureDataManagement/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<AutomaticDownload/>
+	</DataSetManager>
+</Root>

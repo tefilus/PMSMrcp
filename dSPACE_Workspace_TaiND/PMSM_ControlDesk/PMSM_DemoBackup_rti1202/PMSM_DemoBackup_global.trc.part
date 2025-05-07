@@ -1,0 +1,773 @@
+-- ******** Tunable Parameters ************************************************
+
+group "Tunable Parameters"
+
+	p_1_PMSM_DemoBackup_real_T_0[0]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Const_Id_Fieldweakening"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[1]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Const_Ld_Stator"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[2]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Const_Lq_Stator"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[3]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Const_PolePairs"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[4]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Const_Psi"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[5]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Ctrl_mode_SW"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[6]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Ki_id"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[7]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Ki_iq"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[8]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Ki_n"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[9]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Kp_id"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[10]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Kp_iq"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[11]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Kp_n"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[12]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Limit_iq"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[13]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Pos_Src"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[14]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_TF_Id"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[15]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_TF_Iq"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[16]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_TF_n"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[17]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_V_DCLink_Limit"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[18]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_Vel_Src"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[19]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_fRS_Set"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[20]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_i_d_Set"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[21]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_i_d_Stroke"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[22]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_i_q_Set"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[23]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_i_q_Stroke"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[24]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_load_torque"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[25]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_n_Limit"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[26]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_n_Set"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[27]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_n_Stroke"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[28]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_theta_offset"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[29]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_v_d_Set"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[30]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PMSM_Ctrl_v_q_Set"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[31]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "SW_Fieldweakening"
+	 flags:   PARAM
+	}
+	p_1_PMSM_DemoBackup_real_T_0[32]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "T_PWM"
+	 flags:   PARAM
+	}
+
+endgroup
+
+-- ******** State Machine Data ************************************************
+
+-- No Stateflow chart within the model.
+
+
+-- ******** Labels ************************************************************
+
+group "Labels"
+
+	p_0_PMSM_DemoBackup_int16_T_3[0]
+	{
+	 type:    int(16)*
+	 alias:   "ADC_CL1_CH1_Status"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/ADC_CLASS1_BL1/Status"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_int16_T_3[1]
+	{
+	 type:    int(16)*
+	 alias:   "ADC_CL1_CH5_Status"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/ADC_CLASS1_BL5/Status"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[149]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Battery_Voltage[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain9/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[0]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Choose_ref_value_i"
+	 origin:  "PMSM_DemoBackup/Ref_value_gen/Choose_reference_Value_iq/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[1]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Choose_ref_value_n"
+	 origin:  "PMSM_DemoBackup/Ref_value_gen/Choose_reference_Value_n/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[235]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DutyCycle_a_HSD[0_1]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/Label_DutyCycle_HSD[a;b;c][0_1]/Demux/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[241]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DutyCycle_a_LSD[0_1]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/Label_DutyCycle_LSD[a;b;c][0_1]/Demux/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[235]
+	{
+	 type:    PMSM_DemoBackup_ArrayDT0_3*
+	 alias:   "DutyCycle[a;b;c][HSD]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/DutyCycle_HSD[a;b;c][0_1]"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[241]
+	{
+	 type:    PMSM_DemoBackup_ArrayDT0_3*
+	 alias:   "DutyCycle[a;b;c][LSD]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/DutyCycle_LSD[a;b;c][0_1]"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[236]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DutyCycle_b_HSD[0_1]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/Label_DutyCycle_HSD[a;b;c][0_1]/Demux/Out2"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[242]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DutyCycle_b_LSD[0_1]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/Label_DutyCycle_LSD[a;b;c][0_1]/Demux/Out2"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[237]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DutyCycle_c_HSD[0_1]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/Label_DutyCycle_HSD[a;b;c][0_1]/Demux/Out3"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[243]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "DutyCycle_c_LSD[0_1]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/SPACE_VECTOR_MODULATOR/Label_DutyCycle_LSD[a;b;c][0_1]/Demux/Out3"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[94]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "I_d[A]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/I_d[A]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[113]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "I_d_Set[A]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/I_d_Set[A]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[133]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "I_q[A]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/I_q[A]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[140]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "I_q_Set[A]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/I_q_Set[A]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[65]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Inc_mech_pos"
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_ENCODER_BL2/Position"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_boolean_T_5[36]
+	{
+	 type:    uint(8)*
+	 alias:   "Mode_i_manual"
+	 bitmask: 0x01
+	 range:   < 0 ; 1 >
+	 origin:  "PMSM_DemoBackup/Control/pmsm_ctrl_par_sig/MDL_DISP/Logical\nOperator3/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_boolean_T_5[35]
+	{
+	 type:    uint(8)*
+	 alias:   "Mode_i_sig_gen"
+	 bitmask: 0x01
+	 range:   < 0 ; 1 >
+	 origin:  "PMSM_DemoBackup/Control/pmsm_ctrl_par_sig/MDL_DISP/Logical\nOperator2/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_boolean_T_5[33]
+	{
+	 type:    uint(8)*
+	 alias:   "Mode_n_manual"
+	 bitmask: 0x01
+	 range:   < 0 ; 1 >
+	 origin:  "PMSM_DemoBackup/Control/pmsm_ctrl_par_sig/MDL_DISP/Logical\nOperator1/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_boolean_T_5[34]
+	{
+	 type:    uint(8)*
+	 alias:   "Mode_n_sig_gen"
+	 bitmask: 0x01
+	 range:   < 0 ; 1 >
+	 origin:  "PMSM_DemoBackup/Control/pmsm_ctrl_par_sig/MDL_DISP/Logical\nOperator/Out1"
+	 flags:   READONLY
+	}
+	-- Skipping label "Overflow_ADC1"
+
+	-- Skipping label "Overflow_ADC2"
+
+	-- Skipping label "Overflow_ADC3"
+
+	-- Skipping label "Overflow_ADC4"
+
+	-- Skipping label "Overflow_ADC5"
+
+	-- Skipping label "Overflow_ADC6"
+
+	-- Skipping label "Overflow_ADC7"
+
+	-- Skipping label "Overflow_ADC8"
+
+	p_0_PMSM_DemoBackup_real_T_0[305]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PhaseA_Voltage[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain8/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[299]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PhaseB_Voltage[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain10/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[301]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "PhaseC_Voltage[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain11/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[268]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Plotter_trigger_var"
+	 origin:  "PMSM_DemoBackup/Control/pmsm_ctrl_par_sig/MDL_DISP/Switch/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[2]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Sig_gen_n"
+	 origin:  "PMSM_DemoBackup/Ref_value_gen/Sig_gen_n/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[158]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_DCLink[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/SignalCollector/V_DCLink[V]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[216]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_a_Stator[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/v_set_source_SW/Label_v_Stator[a;b;c][V]/Demux/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[215]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_alpha[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/SignalCollector/V_alpha[V]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[222]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_b_Stator[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/v_set_source_SW/Label_v_Stator[a;b;c][V]/Demux/Out2"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[220]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_beta[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/SignalCollector/V_beta[V]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[223]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_c_Stator[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/v_set_source_SW/Label_v_Stator[a;b;c][V]/Demux/Out3"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[256]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_d_Ctrl_lim[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/V_d_Ctrl_lim[V]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[168]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_d_Ctrl_unlim[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/V_d_Ctrl_unlim[V]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[264]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_q_Ctrl_lim[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/V_q_Ctrl_lim[V]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[186]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "V_q_Ctrl_unlim[V]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/V_q_Ctrl_unlim[V]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[41]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC1[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain13/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[304]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC2[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain14/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[148]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC3[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain15/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[302]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC4[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain16/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[45]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC5[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain17/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[298]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC6[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain20/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[49]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC7[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain18/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[300]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "Voltage ADC8[V]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain21/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[9]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "01_year"
+	 origin:  "PMSM_DemoBackup/BuildTimestamp/Demux/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[10]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "02_month"
+	 origin:  "PMSM_DemoBackup/BuildTimestamp/Demux/Out2"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[11]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "03_day"
+	 origin:  "PMSM_DemoBackup/BuildTimestamp/Demux/Out3"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[12]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "04_hour"
+	 origin:  "PMSM_DemoBackup/BuildTimestamp/Demux/Out4"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[13]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "05_minute"
+	 origin:  "PMSM_DemoBackup/BuildTimestamp/Demux/Out5"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[14]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "06_second"
+	 origin:  "PMSM_DemoBackup/BuildTimestamp/Demux/Out6"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[75]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "apu_elec_pos"
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_MOTOR_SETUP_BL1/Electr. Position"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_boolean_T_5[10]
+	{
+	 type:    uint(8)*
+	 alias:   "apu_elec_pos_valid"
+	 bitmask: 0x01
+	 range:   < 0 ; 1 >
+	 desc:    "No data (unused channel) "
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_MOTOR_SETUP_BL1/Electr. Position Valid"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_uint32_T_1[0]
+	{
+	 type:    uint(32)*
+	 alias:   "apu_sensor_select"
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_MOTOR_SETUP_BL1/Sensor"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[96]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "apu_vel"
+	 origin:  "PMSM_DemoBackup/Control/Input/Gain/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[74]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "apu_vel_elec"
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_MOTOR_SETUP_BL1/Speed"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[43]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "current Phase A [A]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Sum9/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[47]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "current Phase B [A]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Sum10/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[51]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "current Phase C [A]"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Sum11/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[72]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "hall_elec_pos"
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_HALL_BL2/Position"
+	 flags:   READONLY
+	}
+	-- Skipping label "hall_freqbased_vel"
+
+	p_0_PMSM_DemoBackup_boolean_T_5[9]
+	{
+	 type:    uint(8)*
+	 alias:   "hall_valid"
+	 bitmask: 0x01
+	 range:   < 0 ; 1 >
+	 desc:    "No data (unused channel) "
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_HALL_BL2/Signal Valid"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[55]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "i_alpha[A]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/i_alpha[A]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[55]
+	{
+	 type:    PMSM_DemoBackup_ArrayDT0_2*
+	 alias:   "i_alpha,beta"
+	 origin:  "PMSM_DemoBackup/Control/pmsm_ctrl_par_sig/MDL_DISP/Mux8/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[56]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "i_beta[A]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/current_controller/SignalCollector/i_beta[A]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[66]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "inc_derivative_vel"
+	 origin:  "PMSM_DemoBackup/Control/Input/EMC_ENCODER_BL2/Speed"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[71]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "inc_valid"
+	 origin:  "PMSM_DemoBackup/Control/Input/bool2double/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[332]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "load[Nm]"
+	 origin:  "PMSM_DemoBackup/Control/Control_load_machine/duty_cycle_2_torque/Out_torque[Nm]"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[25]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "load_machine_ref"
+	 origin:  "PMSM_DemoBackup/Ref_value_gen/Enabled and\nTriggered Subsystem/load_ref"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[365]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "n_Set[rpm]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/speed_controller/SignalCollector/n_Set[rpm]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[367]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "n[rpm]"
+	 origin:  "PMSM_DemoBackup/Control/Controller/PMSM_CONTROLLER/speed_controller/SignalCollector/n[rpm]/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[303]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "not_used"
+	 origin:  "PMSM_DemoBackup/Control/Input/AD_Measurement/Gain12/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[6]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "ref_value_iq"
+	 origin:  "PMSM_DemoBackup/Ref_value_gen/Multiport\nSwitch1/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[3]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "ref_value_n"
+	 origin:  "PMSM_DemoBackup/Ref_value_gen/Multiport\nSwitch/Out1"
+	 flags:   READONLY
+	}
+	p_0_PMSM_DemoBackup_real_T_0[7]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "sim_time"
+	 origin:  "PMSM_DemoBackup/Ref_value_gen/Digital Clock/Out1"
+	 flags:   READONLY
+	}
+
+endgroup
+
+-- ******** RTT Dynamic Variables *********************************************
+
+group "RTT Dynamic Variables"
+
+endgroup
+

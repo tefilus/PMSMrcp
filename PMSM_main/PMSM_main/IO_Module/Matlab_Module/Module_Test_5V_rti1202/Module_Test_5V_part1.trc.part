@@ -1,0 +1,634 @@
+-- ******** Model variables ***************************************************
+
+group "Model Root"
+  
+  
+	group "ANALOG_IN" -- subsystem-group
+
+
+
+		group "Gain" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[1]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[0]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain"
+
+		group "Gain1" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[3]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[1]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain1"
+
+		group "Gain2" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[5]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[2]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain2"
+
+		group "Gain3" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[7]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[3]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain3"
+
+		group "Gain4" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[9]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[4]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain4"
+
+		group "Gain5" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[11]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[5]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain5"
+
+		group "Gain6" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[13]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[6]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain6"
+
+		group "Gain7" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[15]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[7]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain7"
+
+  
+  
+		group "ADC_CLASS2_BL1" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[0]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL1"
+  
+  
+		group "ADC_CLASS2_BL2" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[2]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL2"
+  
+  
+		group "ADC_CLASS2_BL3" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[4]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL3"
+  
+  
+		group "ADC_CLASS2_BL4" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[6]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL4"
+  
+  
+		group "ADC_CLASS2_BL5" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[8]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL5"
+  
+  
+		group "ADC_CLASS2_BL6" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[10]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL6"
+  
+  
+		group "ADC_CLASS2_BL7" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[12]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL7"
+  
+  
+		group "ADC_CLASS2_BL8" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[14]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL8"
+
+
+	endgroup -- subsystem-group "ANALOG_IN"
+  
+  
+	group "ANALOG_OUT" -- subsystem-group
+
+
+
+		group "Constant" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[8]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Value"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Constant"
+
+		group "Data Type Conversion" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_real_T_0[32]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Data Type Conversion"
+
+		group "Gain" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[16]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[24]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Gain"
+
+  
+  
+		group "DAC_CLASS1_BL1" -- subsystem-group
+
+
+		endgroup -- subsystem-group "DAC_CLASS1_BL1"
+
+
+	endgroup -- subsystem-group "ANALOG_OUT"
+  
+  
+	group "DIGITAL_IN" -- subsystem-group
+
+
+
+		group "Data Type Conversion" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_real_T_0[48]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Data Type Conversion"
+
+  
+  
+		group "DIO_CLASS1_BIT_IN_BL1" -- subsystem-group
+
+			p_0_Module_Test_5V_boolean_T_1[0]
+			{
+			 type:    Module_Test_5V_ArrayDT8_8*
+			 alias:   "Out"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+			}
+
+		endgroup -- subsystem-group "DIO_CLASS1_BIT_IN_BL1"
+
+
+	endgroup -- subsystem-group "DIGITAL_IN"
+  
+  
+	group "DIGITAL_OUT" -- subsystem-group
+
+
+
+		group "Constant" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[25]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Value"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Constant"
+
+		group "Constant1" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[44]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Value"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Constant1"
+
+		group "Constant2" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[61]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Value"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Constant2"
+
+		group "Constant3" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[72]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Value"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Constant3"
+
+		group "Data Type Conversion" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_boolean_T_1[24]
+			{
+			 type:    Module_Test_5V_ArrayDT8_16*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Data Type Conversion"
+
+		group "Data Type Conversion1" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_boolean_T_1[48]
+			{
+			 type:    Module_Test_5V_ArrayDT8_8*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "Data Type Conversion1"
+
+		group "NOT" -- block-group
+		{
+		 block: "Logic"
+		}
+			p_0_Module_Test_5V_boolean_T_1[8]
+			{
+			 type:    Module_Test_5V_ArrayDT8_16*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "NOT"
+
+		group "NOT1" -- block-group
+		{
+		 block: "Logic"
+		}
+			p_0_Module_Test_5V_boolean_T_1[40]
+			{
+			 type:    Module_Test_5V_ArrayDT8_8*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+			}
+
+
+		endgroup -- block-group "NOT1"
+
+		group "Step" -- block-group
+		{
+		 block: "Step"
+		}
+			p_0_Module_Test_5V_real_T_0[56]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[41]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Time"
+			 flags:   PARAM
+			}
+			p_1_Module_Test_5V_real_T_0[42]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Before"
+			 flags:   PARAM
+			}
+			p_1_Module_Test_5V_real_T_0[43]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "After"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Step"
+
+		group "Step1" -- block-group
+		{
+		 block: "Step"
+		}
+			p_0_Module_Test_5V_real_T_0[73]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[69]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Time"
+			 flags:   PARAM
+			}
+			p_1_Module_Test_5V_real_T_0[70]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Before"
+			 flags:   PARAM
+			}
+			p_1_Module_Test_5V_real_T_0[71]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "After"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Step1"
+
+		group "Switch" -- block-group
+		{
+		 block: "Switch"
+		}
+			p_0_Module_Test_5V_real_T_0[57]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[60]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Threshold"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Switch"
+
+		group "Switch1" -- block-group
+		{
+		 block: "Switch"
+		}
+			p_0_Module_Test_5V_real_T_0[74]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			}
+			p_1_Module_Test_5V_real_T_0[80]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Threshold"
+			 flags:   PARAM
+			}
+
+
+		endgroup -- block-group "Switch1"
+
+  
+  
+		group "DIO_CLASS1_BIT_OUT_BL1" -- subsystem-group
+
+
+		endgroup -- subsystem-group "DIO_CLASS1_BIT_OUT_BL1"
+  
+  
+		group "DIO_CLASS1_BIT_OUT_BL2" -- subsystem-group
+
+
+		endgroup -- subsystem-group "DIO_CLASS1_BIT_OUT_BL2"
+
+
+	endgroup -- subsystem-group "DIGITAL_OUT"
+  
+  
+	group "DS1202_SENSOR_SUPPLY" -- subsystem-group
+
+
+	endgroup -- subsystem-group "DS1202_SENSOR_SUPPLY"
+  
+  
+	group "RTI Data" -- subsystem-group
+
+
+	endgroup -- subsystem-group "RTI Data"
+
+
+
+endgroup -- "Model Root"

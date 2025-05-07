@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>
+    <Info Version="2" />
+    <Nodes>
+        <HWTopology Version="2">
+            <Elements />
+            <Nodes>
+                <System Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;0;0;0;0;;0;0;0;System</Position>
+                        <Name Type="System.String">RapidPro System</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="RapidPro System" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="General" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">RapidPro System</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                    </Nodes>
+                </System>
+                <Rack Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;0;0;0;;0;0;0;Rack</Position>
+                        <Name Type="System.String">RapidPro Stack</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="RapidPro Stack" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="General" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="ConfigID" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.Int32">28167</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="RoutingID" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.Int32">6725</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">RapidPro Stack</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                    </Nodes>
+                </Rack>
+                <Board Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;1;1;0;0;1651;0;256;Board</Position>
+                        <Name Type="System.String">Power Unit</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="Power Unit" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="General" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="UnitType" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">Power Unit</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Layer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="DSNumber" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">DS1651</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Serial" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">362602</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="#SC Slots" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="#PS Slots" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">6</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="#COM Slots" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="#MC Slots" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">Power Unit</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Version" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="HWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">8.1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="SWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">4.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="BfwVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PICVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.6.3</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PluginVersion" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFileDS1651" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">DS1651</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                        <AnalogRouting Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">1 2 0 0</Slot01>
+                                <Slot02 Type="System.String">3 4 0 0</Slot02>
+                                <Slot03 Type="System.String">5 0 0 0</Slot03>
+                                <Slot04 Type="System.String">7 8 0 0</Slot04>
+                                <Slot05 Type="System.String">9 10 0 0</Slot05>
+                                <Slot06 Type="System.String">11 0 0 0</Slot06>
+                            </Elements>
+                            <Nodes />
+                        </AnalogRouting>
+                        <DigitalRouting Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">1 2 3 4 5 6 0 0</Slot01>
+                                <Slot02 Type="System.String">7 8 9 10 11 12 0 0</Slot02>
+                                <Slot03 Type="System.String">13 14 15 16 17 18 0 0</Slot03>
+                                <Slot04 Type="System.String">19 20 21 22 23 24 0 0</Slot04>
+                                <Slot05 Type="System.String">25 26 27 28 12 11 31 32</Slot05>
+                                <Slot06 Type="System.String">33 34 35 36 37 38 39 40</Slot06>
+                            </Elements>
+                            <Nodes />
+                        </DigitalRouting>
+                    </Nodes>
+                </Board>
+                <CON Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;1;1;1;9;1673;1;256;CON</Position>
+                        <Name Type="System.String">FCON-PU 3/1</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="FCON-PU 3/1" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="Info" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">FCON-PU 3/1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="DSNumber" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">DS1673</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Slot" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Serial" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">357546</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="VariantVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="ModuleType" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">CON</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Version" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="HWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">5.1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="SWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PluginVersion" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Layer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.UInt32">1</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFileDS1673" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">DS1673</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                    </Nodes>
+                </CON>
+                <SUP Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;1;1;1;7;1675;1;256;SUP</Position>
+                        <Name Type="System.String">PWR-PRI 1/1</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="PWR-PRI 1/1" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="Info" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">PWR-PRI 1/1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="DSNumber" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">DS1675</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Slot" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Serial" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">344482</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="VariantVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="ModuleType" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">SUP</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Version" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="HWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">4.3</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="SWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Layer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.UInt32">1</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFileDS1675" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">DS1675</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                    </Nodes>
+                </SUP>
+                <PS Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;1;1;1;1,2,3;1768;1;256;PS</Position>
+                        <Name Type="System.String">PS-HCHBD 2/2</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                        <SlotChanNo Type="System.String">2 0 0</SlotChanNo>
+                        <DigInMask Type="System.String">0 31 0</DigInMask>
+                        <DigOutMask Type="System.String">0 31 0</DigOutMask>
+                        <GenericFlags Type="System.Int32">14</GenericFlags>
+                        <DiagInfoMask Type="System.Int32">155</DiagInfoMask>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="PS-HCHBD 2/2" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="Info" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">PS-HCHBD 2/2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="DSNumber" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">DS1768</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Slot" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1, 2, 3</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Serial" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">336765</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="VariantVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="#Channels" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">2, 0, 0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="ModuleType" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">PS</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Version" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="HWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">3.2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="SWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.6</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PLVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="BfWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PluginVersion" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Layer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.UInt32">1</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="GlobalErrorPattern" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.String">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="ChannelErrorPattern" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.String">1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" StructureVersion="1" MigrateId="DefaultMountingMigrate" Name="Mounting Parameters" BackupType="dSPACE.HostCoreServer.ConsistentVersionNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFileDS1768" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">DS1768</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                        <IoChnlMap Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">1 2 1 2 1 2 1 2 0</Slot01>
+                                <Slot02 Type="System.String">1 2 1 2 1 2 1 2 0</Slot02>
+                                <Slot03 Type="System.String">1 2 1 2 1 2 1 2 0</Slot03>
+                            </Elements>
+                            <Nodes />
+                        </IoChnlMap>
+                        <AnalogChannelMap Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">1 2</Slot01>
+                                <Slot02 Type="System.String">1 2</Slot02>
+                                <Slot03 Type="System.String">3</Slot03>
+                            </Elements>
+                            <Nodes />
+                        </AnalogChannelMap>
+                        <DigitalChannelMap Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">0 0 0 0 0 0 0 0</Slot01>
+                                <Slot02 Type="System.String">1 1 2 2 3 3 0 0</Slot02>
+                                <Slot03 Type="System.String">0 0 0 0 0 0 0 0</Slot03>
+                            </Elements>
+                            <Nodes />
+                        </DigitalChannelMap>
+                    </Nodes>
+                </PS>
+                <SUP Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;1;1;2;8;1676;1;256;SUP</Position>
+                        <Name Type="System.String">PWR-SEC 1/1</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="PWR-SEC 1/1" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="Info" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">PWR-SEC 1/1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="DSNumber" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">DS1676</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Slot" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Serial" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">363989</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="VariantVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="ModuleType" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">SUP</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Version" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="HWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">3.5</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="SWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Layer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.UInt32">1</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFileDS1676" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">DS1676</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                    </Nodes>
+                </SUP>
+                <CON Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;1;1;2;10;1693;1;256;CON</Position>
+                        <Name Type="System.String">RCON-SU 2/1</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="RCON-SU 2/1" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="Info" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">RCON-SU 2/1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="DSNumber" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">DS1693</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Slot" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Serial" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">336646</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="VariantVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="ModuleType" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">CON</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Version" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="HWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">3.3</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="SWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PluginVersion" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Layer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.UInt32">1</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFileDS1693" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">DS1693</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                    </Nodes>
+                </CON>
+                <PS Version="1">
+                    <Elements>
+                        <Position TypeId="RapidPro" Type="System.String">1;1;1;1;4;4,5,6;1768;1;256;PS</Position>
+                        <Name Type="System.String">PS-HCHBD 2/2</Name>
+                        <DeviceName Type="System.String">RapidPro</DeviceName>
+                        <SlotChanNo Type="System.String">2 0 0</SlotChanNo>
+                        <DigInMask Type="System.String">0 31 0</DigInMask>
+                        <DigOutMask Type="System.String">0 31 0</DigOutMask>
+                        <GenericFlags Type="System.Int32">14</GenericFlags>
+                        <DiagInfoMask Type="System.Int32">155</DiagInfoMask>
+                    </Elements>
+                    <Nodes>
+                        <Properties ClassID="DataModel" Version="1" Name="PS-HCHBD 2/2" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                            <Elements />
+                            <Nodes>
+                                <DataModel ClassID="DataModel" Version="1" Name="Info" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Name" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">PS-HCHBD 2/2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="DSNumber" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">DS1768</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Slot" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">4, 5, 6</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Serial" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">336762</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="VariantVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="#Channels" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">2, 0, 0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="ModuleType" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">PS</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Version" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="HWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">3.2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="SWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.6</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PLVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.2</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="BfWVer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                        <DataModel ClassID="DataModel" Version="1" Name="PluginVersion" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements>
+                                                <Value Type="System.String">1.0</Value>
+                                            </Elements>
+                                            <Nodes />
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="Layer" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.UInt32">1</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="GlobalErrorPattern" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.String">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="ChannelErrorPattern" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements>
+                                        <Value Type="System.String">1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0</Value>
+                                    </Elements>
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" StructureVersion="1" MigrateId="DefaultMountingMigrate" Name="Mounting Parameters" BackupType="dSPACE.HostCoreServer.ConsistentVersionNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes />
+                                </DataModel>
+                                <DataModel ClassID="DataModel" Version="1" Name="MetaInformation" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                    <Elements />
+                                    <Nodes>
+                                        <DataModel ClassID="DataModel" Version="1" Name="Translator" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                            <Elements />
+                                            <Nodes>
+                                                <DataModel ClassID="DataModel" Version="1" Name="TranslationDomain" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements>
+                                                        <Value Type="System.String">ModuleConfiguration</Value>
+                                                    </Elements>
+                                                    <Nodes />
+                                                </DataModel>
+                                                <DataModel ClassID="DataModel" Version="1" Name="ResourceFiles" BackupType="dSPACE.HostCoreServer.ConsistentNode, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                    <Elements />
+                                                    <Nodes>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFile" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">ModuleConfiguration</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                        <DataModel ClassID="DataModel" Version="1" Name="ResourceFileDS1768" Unit="" BackupType="dSPACE.HostCoreServer.ReadOnlyValue, dSPACE.Hcs.DataModel, Culture=neutral">
+                                                            <Elements>
+                                                                <Value Type="System.String">DS1768</Value>
+                                                            </Elements>
+                                                            <Nodes />
+                                                        </DataModel>
+                                                    </Nodes>
+                                                </DataModel>
+                                            </Nodes>
+                                        </DataModel>
+                                    </Nodes>
+                                </DataModel>
+                            </Nodes>
+                        </Properties>
+                        <IoChnlMap Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">1 2 1 2 1 2 1 2 0</Slot01>
+                                <Slot02 Type="System.String">1 2 1 2 1 2 1 2 0</Slot02>
+                                <Slot03 Type="System.String">1 2 1 2 1 2 1 2 0</Slot03>
+                            </Elements>
+                            <Nodes />
+                        </IoChnlMap>
+                        <AnalogChannelMap Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">1 2</Slot01>
+                                <Slot02 Type="System.String">1 2</Slot02>
+                                <Slot03 Type="System.String">3</Slot03>
+                            </Elements>
+                            <Nodes />
+                        </AnalogChannelMap>
+                        <DigitalChannelMap Version="1">
+                            <Elements>
+                                <Slot01 Type="System.String">0 0 0 0 0 0 0 0</Slot01>
+                                <Slot02 Type="System.String">1 1 2 2 3 3 0 0</Slot02>
+                                <Slot03 Type="System.String">0 0 0 0 0 0 0 0</Slot03>
+                            </Elements>
+                            <Nodes />
+                        </DigitalChannelMap>
+                    </Nodes>
+                </PS>
+            </Nodes>
+        </HWTopology>
+    </Nodes>
+</Document>

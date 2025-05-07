@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<!--Generic MAP information file.-->
+<NormalizedMapFile Version="1.0.0.0">
+  <MetaData>
+    <Files>
+      <File Type="GNU x86 Compiler" Name="D:\PMSM_ControlDesk\PMSM_DemoBackup.map" Date="2024-05-07 1:37:25" ParsingDate="2024-05-07 1:37:25" />
+    </Files>
+  </MetaData>
+  <Sections>
+    <Section StartAddress="0x48040134" Size="0x00000014" Name=".interp" />
+    <Section StartAddress="0x48040150" Size="0x00000018" Name=".note" />
+    <Section StartAddress="0x48040168" Size="0x00000020" Name=".note.gnu.build-id" />
+    <Section StartAddress="0x48040188" Size="0x000004A8" Name=".hash" />
+    <Section StartAddress="0x48040630" Size="0x00000A50" Name=".dynsym" />
+    <Section StartAddress="0x48041080" Size="0x00000E9B" Name=".dynstr" />
+    <Section StartAddress="0x48041F1C" Size="0x00000000" Name=".gnu.version" />
+    <Section StartAddress="0x48041F1C" Size="0x00000000" Name=".gnu.version_d" />
+    <Section StartAddress="0x48041F1C" Size="0x00000000" Name=".gnu.version_r" />
+    <Section StartAddress="0x48041F1C" Size="0x0000006C" Name=".rela.dyn" />
+    <Section StartAddress="0x48041F88" Size="0x000006D8" Name=".rela.plt" />
+    <Section StartAddress="0x48042660" Size="0x00000024" Name=".init" />
+    <Section StartAddress="0x48042690" Size="0x0000644C" Name=".text" />
+    <Section StartAddress="0x48048ADC" Size="0x00000020" Name=".fini" />
+    <Section StartAddress="0x48048B00" Size="0x00000598" Name=".rodata" />
+    <Section StartAddress="0x48049098" Size="0x00000000" Name=".sdata2" />
+    <Section StartAddress="0x48049098" Size="0x00000014" Name=".eh_frame_hdr" />
+    <Section StartAddress="0x480490AC" Size="0x0000002C" Name=".eh_frame" />
+    <Section StartAddress="0x4804A0D8" Size="0x00000000" Name=".preinit_array" />
+    <Section StartAddress="0x4804A0D8" Size="0x00000000" Name=".init_array" />
+    <Section StartAddress="0x4804A0D8" Size="0x00000000" Name=".fini_array" />
+    <Section StartAddress="0x4804A0D8" Size="0x00000008" Name=".ctors" />
+    <Section StartAddress="0x4804A0E0" Size="0x00000008" Name=".dtors" />
+    <Section StartAddress="0x4804A0E8" Size="0x00000004" Name=".jcr" />
+    <Section StartAddress="0x4804A0EC" Size="0x00000100" Name=".dynamic" />
+    <Section StartAddress="0x4804A1F0" Size="0x00000AB0" Name=".data" />
+    <Section StartAddress="0x4804ACA0" Size="0x00000000" Name=".tm_clone_table" />
+    <Section StartAddress="0x4804ACA0" Size="0x00000054" Name=".got" />
+    <Section StartAddress="0x4804ACF4" Size="0x00000000" Name=".sdata" />
+    <Section StartAddress="0x4804ACF4" Size="0x00000000" Name=".sbss" />
+    <Section StartAddress="0x4804ACF4" Size="0x00000720" Name=".plt" />
+    <Section StartAddress="0x4804B418" Size="0x000010AC" Name=".bss" />
+    <Section StartAddress="0x4804C4D0" Size="0x00000000" Name=".iplt" />
+    <Section StartAddress="0x00000000" Size="0x00000047" Name=".comment" />
+    <Section StartAddress="0x00000000" Size="0x00000018" Name=".PPC.EMB.apuinfo" />
+    <Section StartAddress="0x00000000" Size="0x00000014" Name=".gnu.attributes" />
+  </Sections>
+  <Symbols>
+    <Symbol Address="0x4804B044" Name="Acu_apply" />
+    <Symbol Address="0x4804B0EC" Name="Acu_create" />
+    <Symbol Address="0x4804B01C" Name="Acu_getCurrentInputSensorNo" />
+    <Symbol Address="0x4804AEEC" Name="Acu_getElecPosition" />
+    <Symbol Address="0x4804AF14" Name="Acu_getIsElecPosValid" />
+    <Symbol Address="0x4804AE24" Name="Acu_getMotorSpeed" />
+    <Symbol Address="0x4804AEC4" Name="Acu_read" />
+    <Symbol Address="0x4804AE04" Name="Acu_setInputSensor" />
+    <Symbol Address="0x4804AE5C" Name="Acu_setMotorPolePairCount" />
+    <Symbol Address="0x4804B124" Name="Acu_setSensorPolePairCount" />
+    <Symbol Address="0x4804B0BC" Name="Acu_start" />
+    <Symbol Address="0x4804AF4C" Name="AdcCl1AnalogIn_apply" />
+    <Symbol Address="0x4804B18C" Name="AdcCl1AnalogIn_create" />
+    <Symbol Address="0x4804B0D4" Name="AdcCl1AnalogIn_getSingleValue" />
+    <Symbol Address="0x4804AD6C" Name="AdcCl1AnalogIn_read" />
+    <Symbol Address="0x4804AEAC" Name="AdcCl1AnalogIn_setConversTrigger" />
+    <Symbol Address="0x4804AF1C" Name="AdcCl1AnalogIn_setConversionMode" />
+    <Symbol Address="0x4804AFE4" Name="AdcCl1AnalogIn_setTriggerLineIn" />
+    <Symbol Address="0x4804B064" Name="AdcCl1AnalogIn_start" />
+    <Symbol Address="0x000004B2" Name="DS_TARGET_PLATFORM" />
+    <Symbol Address="0x4804B054" Name="DioCl1DigOut_apply" />
+    <Symbol Address="0x4804B004" Name="DioCl1DigOut_create" />
+    <Symbol Address="0x4804ADE4" Name="DioCl1DigOut_setChMaskOutData" />
+    <Symbol Address="0x4804AE64" Name="DioCl1DigOut_setChMaskOutHighZ" />
+    <Symbol Address="0x4804AEF4" Name="DioCl1DigOut_setSignalVoltage" />
+    <Symbol Address="0x4804AF94" Name="DioCl1DigOut_start" />
+    <Symbol Address="0x4804AF84" Name="DioCl1DigOut_write" />
+    <Symbol Address="0x4804B0DC" Name="DioCl1EncoderIn_apply" />
+    <Symbol Address="0x4804B02C" Name="DioCl1EncoderIn_create" />
+    <Symbol Address="0x4804AD44" Name="DioCl1EncoderIn_getIsIndexRaised" />
+    <Symbol Address="0x4804AF34" Name="DioCl1EncoderIn_getMechPosition" />
+    <Symbol Address="0x4804AFBC" Name="DioCl1EncoderIn_getMechVelocity" />
+    <Symbol Address="0x4804AF7C" Name="DioCl1EncoderIn_read" />
+    <Symbol Address="0x4804AFEC" Name="DioCl1EncoderIn_setEncPosition" />
+    <Symbol Address="0x4804B10C" Name="DioCl1EncoderIn_setEncoderLines" />
+    <Symbol Address="0x4804AD74" Name="DioCl1EncoderIn_setGatedMode" />
+    <Symbol Address="0x4804ADFC" Name="DioCl1EncoderIn_setIndexMode" />
+    <Symbol Address="0x4804AFF4" Name="DioCl1EncoderIn_setIndexPosition" />
+    <Symbol Address="0x4804AE84" Name="DioCl1EncoderIn_setMaxPosition" />
+    <Symbol Address="0x4804AF74" Name="DioCl1EncoderIn_setMeasurementInterval" />
+    <Symbol Address="0x4804AE8C" Name="DioCl1EncoderIn_setMinPosition" />
+    <Symbol Address="0x4804B0A4" Name="DioCl1EncoderIn_start" />
+    <Symbol Address="0x4804B0E4" Name="DioCl1EncoderIn_stop" />
+    <Symbol Address="0x4804B034" Name="DioCl1HallIn_apply" />
+    <Symbol Address="0x4804B19C" Name="DioCl1HallIn_create" />
+    <Symbol Address="0x4804AF6C" Name="DioCl1HallIn_getIsPositionValid" />
+    <Symbol Address="0x4804B184" Name="DioCl1HallIn_getPosition" />
+    <Symbol Address="0x4804AE94" Name="DioCl1HallIn_getSensorSignals" />
+    <Symbol Address="0x4804B0F4" Name="DioCl1HallIn_read" />
+    <Symbol Address="0x4804B1B4" Name="DioCl1HallIn_setPositionOffset" />
+    <Symbol Address="0x4804AE14" Name="DioCl1HallIn_setReverseDirection" />
+    <Symbol Address="0x4804AD3C" Name="DioCl1HallIn_setSigEdgePositions" />
+    <Symbol Address="0x4804ADCC" Name="DioCl1HallIn_start" />
+    <Symbol Address="0x4804ADBC" Name="DioCl1HallIn_write" />
+    <Symbol Address="0x4804ADB4" Name="DioCl1MultiPwmOut_apply" />
+    <Symbol Address="0x4804B0AC" Name="DioCl1MultiPwmOut_create" />
+    <Symbol Address="0x4804AF2C" Name="DioCl1MultiPwmOut_setAlignmentMode" />
+    <Symbol Address="0x4804AE1C" Name="DioCl1MultiPwmOut_setDutyCycle" />
+    <Symbol Address="0x4804AFA4" Name="DioCl1MultiPwmOut_setEventDelay" />
+    <Symbol Address="0x4804ADC4" Name="DioCl1MultiPwmOut_setEventDownsample" />
+    <Symbol Address="0x4804B154" Name="DioCl1MultiPwmOut_setInterruptMode" />
+    <Symbol Address="0x4804B15C" Name="DioCl1MultiPwmOut_setInvertingMode" />
+    <Symbol Address="0x4804AF5C" Name="DioCl1MultiPwmOut_setOutputHighZ" />
+    <Symbol Address="0x4804B014" Name="DioCl1MultiPwmOut_setPeriod" />
+    <Symbol Address="0x4804AFB4" Name="DioCl1MultiPwmOut_setRisingEdgeDelay" />
+    <Symbol Address="0x4804AE2C" Name="DioCl1MultiPwmOut_setSignalVoltage" />
+    <Symbol Address="0x4804AED4" Name="DioCl1MultiPwmOut_setTriggerLineOut" />
+    <Symbol Address="0x4804AD8C" Name="DioCl1MultiPwmOut_setTriggerMode" />
+    <Symbol Address="0x4804AE54" Name="DioCl1MultiPwmOut_setUpdateMode" />
+    <Symbol Address="0x4804B09C" Name="DioCl1MultiPwmOut_start" />
+    <Symbol Address="0x4804AD64" Name="DioCl1MultiPwmOut_write" />
+    <Symbol Address="0x4804AF44" Name="DioCl1PwmOut_apply" />
+    <Symbol Address="0x4804AFCC" Name="DioCl1PwmOut_create" />
+    <Symbol Address="0x4804AF9C" Name="DioCl1PwmOut_setDutyCycle" />
+    <Symbol Address="0x4804B094" Name="DioCl1PwmOut_setInvertingMode" />
+    <Symbol Address="0x4804ADD4" Name="DioCl1PwmOut_setOutputHighZ" />
+    <Symbol Address="0x4804ADA4" Name="DioCl1PwmOut_setPeriod" />
+    <Symbol Address="0x4804B114" Name="DioCl1PwmOut_setSignalVoltage" />
+    <Symbol Address="0x4804B144" Name="DioCl1PwmOut_setUpdateMode" />
+    <Symbol Address="0x4804AE9C" Name="DioCl1PwmOut_start" />
+    <Symbol Address="0x4804B12C" Name="DioCl1PwmOut_write" />
+    <Symbol Address="0x4804AE44" Name="DsTimeSync_baserate" />
+    <Symbol Address="0x4804AF04" Name="DsTimeSync_setCurrentTimePtr" />
+    <Symbol Address="0x4804AD9C" Name="DsTimeSync_simstateRun" />
+    <Symbol Address="0x4804B1A4" Name="DsTimeSync_simstateStop" />
+    <Symbol Address="0x4804B5D8" Name="PMSM_DemoBackup_B" />
+    <Symbol Address="0x48043110" Name="PMSM_DemoBackup_Control" />
+    <Symbol Address="0x48043100" Name="PMSM_DemoBackup_Control_Init" />
+    <Symbol Address="0x48042FD0" Name="PMSM_DemoBackup_Control_Reset" />
+    <Symbol Address="0x480451D0" Name="PMSM_DemoBackup_Control_Term" />
+    <Symbol Address="0x4804B450" Name="PMSM_DemoBackup_DW" />
+    <Symbol Address="0x48048B00" Name="PMSM_DemoBackup_M" />
+    <Symbol Address="0x4804C230" Name="PMSM_DemoBackup_M_" />
+    <Symbol Address="0x4804A1F8" Name="PMSM_DemoBackup_P" />
+    <Symbol Address="0x4804C228" Name="PMSM_DemoBackup_PrevZCX" />
+    <Symbol Address="0x48045B70" Name="PMSM_DemoBackup_initialize" />
+    <Symbol Address="0x48045240" Name="PMSM_DemoBackup_output" />
+    <Symbol Address="0x48045F2C" Name="PMSM_DemoBackup_rti_init_trc_pointers" />
+    <Symbol Address="0x48045D10" Name="PMSM_DemoBackup_terminate" />
+    <Symbol Address="0x48045AC0" Name="PMSM_DemoBackup_update" />
+    <Symbol Address="0x4804B104" Name="SensorSupply_apply" />
+    <Symbol Address="0x4804AFC4" Name="SensorSupply_create" />
+    <Symbol Address="0x4804B164" Name="SensorSupply_setSensorState" />
+    <Symbol Address="0x4804B074" Name="SensorSupply_setVoltage" />
+    <Symbol Address="0x4804B16C" Name="SensorSupply_start" />
+    <Symbol Address="0x4804B174" Name="SrtkApp_background" />
+    <Symbol Address="0x4804B08C" Name="SrtkApp_init" />
+    <Symbol Address="0x4804AF8C" Name="SrtkApp_terminate" />
+    <Symbol Address="0x4804B07C" Name="SrtkDaq_Background" />
+    <Symbol Address="0x4804AEE4" Name="SrtkDaq_Init" />
+    <Symbol Address="0x4804B0B4" Name="SrtkDaq_Service" />
+    <Symbol Address="0x4804B1AC" Name="SrtkIntBase_disableIntGlobal" />
+    <Symbol Address="0x4804AF0C" Name="SrtkIntBase_enableIntGlobal" />
+    <Symbol Address="0x4804ADEC" Name="SrtkIntBase_requestTaskMode" />
+    <Symbol Address="0x4804AEBC" Name="SrtkPreload_preloadRegion" />
+    <Symbol Address="0x4804B0CC" Name="SrtkSim_notifyStateTransition" />
+    <Symbol Address="0x4804B1BC" Name="SrtkSim_registerState" />
+    <Symbol Address="0x00000000" Name="_DSPACE_START" />
+    <Symbol Address="0x00000000" Name="_DSPACE_START_" />
+    <Symbol Address="0x4804A0EC" Name="_DYNAMIC" />
+    <Symbol Address="0x4804ACE8" Name="_GLOBAL_OFFSET_TABLE_" />
+    <Symbol Address="0x4804B00C" Name="_Sin" />
+    <Symbol Address="0x4804A0E4" Name="__DTOR_END__" />
+    <Symbol Address="0x4804ACF4" Name="__bss_start" />
+    <Symbol Address="0x4804AE0C" Name="__cxa_finalize" />
+    <Symbol Address="0x4804B1C4" Name="__deregister_frame_info" />
+    <Symbol Address="0x4804A1F0" Name="__dso_handle" />
+    <Symbol Address="0x4804C4D0" Name="__end" />
+    <Symbol Address="0x48048064" Name="__ieee754_pow" />
+    <Symbol Address="0x4804AD54" Name="__register_frame_info" />
+    <Symbol Address="0x4804B05C" Name="__wrap_atexit" />
+    <Symbol Address="0x4804B04C" Name="__wrap_exit" />
+    <Symbol Address="0x48042690" Name="_btext" />
+    <Symbol Address="0x4804ACF4" Name="_edata" />
+    <Symbol Address="0x4804C4D0" Name="_end" />
+    <Symbol Address="0x48048ADC" Name="_fini" />
+    <Symbol Address="0x4804B06C" Name="_fini_array" />
+    <Symbol Address="0x48042660" Name="_init" />
+    <Symbol Address="0x4804AE34" Name="_init_array" />
+    <Symbol Address="0x4804AF54" Name="_init_libc" />
+    <Symbol Address="0x4804B084" Name="_preinit_array" />
+    <Symbol Address="0x48042690" Name="_start" />
+    <Symbol Address="0x4804C410" Name="currentTime" />
+    <Symbol Address="0x48042DC0" Name="div_nzp_repeat_u32" />
+    <Symbol Address="0x4804AEB4" Name="dsparam_copy_data_set" />
+    <Symbol Address="0x4804AF64" Name="dsrtt_init" />
+    <Symbol Address="0x4804AE6C" Name="dsrtt_script_service_post_computation" />
+    <Symbol Address="0x4804AFD4" Name="dsrtt_script_service_pre_computation" />
+    <Symbol Address="0x4804AD7C" Name="dsrtt_set_current_time" />
+    <Symbol Address="0x4804B134" Name="dsrtt_set_step_size" />
+    <Symbol Address="0x4804B420" Name="dsts_sum_of_reseted_time" />
+    <Symbol Address="0x4804B418" Name="errno" />
+    <Symbol Address="0x4804C414" Name="finalTime" />
+    <Symbol Address="0x4804ADAC" Name="floor" />
+    <Symbol Address="0x4804B03C" Name="fmod" />
+    <Symbol Address="0x48046B50" Name="initConditions" />
+    <Symbol Address="0x48046B60" Name="initVariables" />
+    <Symbol Address="0x4804AC90" Name="lastSimState" />
+    <Symbol Address="0x48042A60" Name="look1_binlxpw" />
+    <Symbol Address="0x48042C20" Name="look1_iu8lu32n31Ds16_binlcf" />
+    <Symbol Address="0x48046BE0" Name="main" />
+    <Symbol Address="0x4804AFFC" Name="memset" />
+    <Symbol Address="0x4804C418" Name="modelStepSize" />
+    <Symbol Address="0x4804AD5C" Name="msg_error_clear" />
+    <Symbol Address="0x4804AFDC" Name="msg_error_printf" />
+    <Symbol Address="0x4804AECC" Name="msg_error_set" />
+    <Symbol Address="0x4804AFAC" Name="msg_info_set" />
+    <Symbol Address="0x4804B428" Name="msg_last_error_no" />
+    <Symbol Address="0x4804AEA4" Name="msg_last_error_number" />
+    <Symbol Address="0x4804B0FC" Name="msg_set" />
+    <Symbol Address="0x4804AE7C" Name="msg_warning_printf" />
+    <Symbol Address="0x48042D70" Name="mul_ssu32_loSR" />
+    <Symbol Address="0x48042B70" Name="mul_wide_su32" />
+    <Symbol Address="0x4804C424" Name="pEmcHall_Unit1_DioCl1_Port1_Ch1" />
+    <Symbol Address="0x4804C438" Name="pRTIAdcC1AnalogIn_Ch_1" />
+    <Symbol Address="0x4804C448" Name="pRTIAdcC1AnalogIn_Ch_2" />
+    <Symbol Address="0x4804C444" Name="pRTIAdcC1AnalogIn_Ch_3" />
+    <Symbol Address="0x4804C44C" Name="pRTIAdcC1AnalogIn_Ch_4" />
+    <Symbol Address="0x4804C43C" Name="pRTIAdcC1AnalogIn_Ch_5" />
+    <Symbol Address="0x4804C450" Name="pRTIAdcC1AnalogIn_Ch_6" />
+    <Symbol Address="0x4804C440" Name="pRTIAdcC1AnalogIn_Ch_7" />
+    <Symbol Address="0x4804C454" Name="pRTIAdcC1AnalogIn_Ch_8" />
+    <Symbol Address="0x4804C430" Name="pRTIDioC1DigOut_Port_1_Ch_15" />
+    <Symbol Address="0x4804C42C" Name="pRTIDioC1PwmOut_Port_1_Ch_13" />
+    <Symbol Address="0x4804C45C" Name="pRTIEmcAcu_Unit_1" />
+    <Symbol Address="0x4804C420" Name="pRTIEmcEncoder_Unit_1_DioCl_1_Port_1_Ch4" />
+    <Symbol Address="0x4804C428" Name="pRTIEmcMultiPwmOut_Port_1_Ch_7" />
+    <Symbol Address="0x4804C458" Name="pRTI_Sensor_Supply" />
+    <Symbol Address="0x4804C49C" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_OCnt" />
+    <Symbol Address="0x4804C494" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_OMax" />
+    <Symbol Address="0x4804C498" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_ORpt" />
+    <Symbol Address="0x4804C490" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_OType" />
+    <Symbol Address="0x4804C4A4" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_Prio" />
+    <Symbol Address="0x4804C4A0" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_TCnt" />
+    <Symbol Address="0x4804C48C" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_TState" />
+    <Symbol Address="0x4804C488" Name="pRti_120XDIOCL1MCPWM_MID_OF_PERIODP1Ch7_TTime" />
+    <Symbol Address="0x4804C478" Name="pRti_TIMERA_OCnt" />
+    <Symbol Address="0x4804C470" Name="pRti_TIMERA_OMax" />
+    <Symbol Address="0x4804C474" Name="pRti_TIMERA_ORpt" />
+    <Symbol Address="0x4804C46C" Name="pRti_TIMERA_OType" />
+    <Symbol Address="0x4804C480" Name="pRti_TIMERA_Prio" />
+    <Symbol Address="0x4804C460" Name="pRti_TIMERA_STime" />
+    <Symbol Address="0x4804C47C" Name="pRti_TIMERA_TCnt" />
+    <Symbol Address="0x4804C468" Name="pRti_TIMERA_TState" />
+    <Symbol Address="0x4804C464" Name="pRti_TIMERA_TTime" />
+    <Symbol Address="0x4804C384" Name="p_0_PMSM_DemoBackup_boolean_T_5" />
+    <Symbol Address="0x4804C37C" Name="p_0_PMSM_DemoBackup_int16_T_3" />
+    <Symbol Address="0x4804C378" Name="p_0_PMSM_DemoBackup_int32_T_2" />
+    <Symbol Address="0x4804C370" Name="p_0_PMSM_DemoBackup_real_T_0" />
+    <Symbol Address="0x4804C374" Name="p_0_PMSM_DemoBackup_uint32_T_1" />
+    <Symbol Address="0x4804C380" Name="p_0_PMSM_DemoBackup_uint8_T_4" />
+    <Symbol Address="0x4804C3C8" Name="p_1_PMSM_DemoBackup_int16_T_16" />
+    <Symbol Address="0x4804C388" Name="p_1_PMSM_DemoBackup_real_T_0" />
+    <Symbol Address="0x4804C3C0" Name="p_1_PMSM_DemoBackup_real_T_14" />
+    <Symbol Address="0x4804C38C" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_1" />
+    <Symbol Address="0x4804C3B0" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_10" />
+    <Symbol Address="0x4804C3B4" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_11" />
+    <Symbol Address="0x4804C3B8" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_12" />
+    <Symbol Address="0x4804C390" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_2" />
+    <Symbol Address="0x4804C394" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_3" />
+    <Symbol Address="0x4804C398" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_4" />
+    <Symbol Address="0x4804C39C" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_5" />
+    <Symbol Address="0x4804C3A0" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_6" />
+    <Symbol Address="0x4804C3A4" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_7" />
+    <Symbol Address="0x4804C3A8" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_8" />
+    <Symbol Address="0x4804C3AC" Name="p_1_PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC_9" />
+    <Symbol Address="0x4804C3C4" Name="p_1_PMSM_DemoBackup_uint32_T_15" />
+    <Symbol Address="0x4804C3BC" Name="p_1_PMSM_DemoBackup_uint8_T_13" />
+    <Symbol Address="0x4804C3CC" Name="p_1_PMSM_DemoBackup_uint8_T_17" />
+    <Symbol Address="0x4804C3DC" Name="p_2_PMSM_DemoBackup_int8_T_3" />
+    <Symbol Address="0x4804C3D4" Name="p_2_PMSM_DemoBackup_int_T_1" />
+    <Symbol Address="0x4804C3D0" Name="p_2_PMSM_DemoBackup_real_T_0" />
+    <Symbol Address="0x4804C3D8" Name="p_2_PMSM_DemoBackup_uint8_T_2" />
+    <Symbol Address="0x48048B94" Name="p_dsts_sum_of_reset_time" />
+    <Symbol Address="0x48048B98" Name="p_msg_last_error_no" />
+    <Symbol Address="0x4804AC9C" Name="p_xilapi_eesport_activeerrorset_uint32_T" />
+    <Symbol Address="0x4804AC98" Name="p_xilapi_eesport_erroractivated_uint32_T" />
+    <Symbol Address="0x4804AC94" Name="p_xilapi_eesport_errorswitching_uint32_T" />
+    <Symbol Address="0x48048044" Name="pow" />
+    <Symbol Address="0x48045F60" Name="rtGetInf" />
+    <Symbol Address="0x48045F80" Name="rtGetInfF" />
+    <Symbol Address="0x48045F90" Name="rtGetMinusInf" />
+    <Symbol Address="0x48045FB0" Name="rtGetMinusInfF" />
+    <Symbol Address="0x48045FC0" Name="rtGetNaN" />
+    <Symbol Address="0x48045FF0" Name="rtGetNaNF" />
+    <Symbol Address="0x4804C3F0" Name="rtInf" />
+    <Symbol Address="0x4804C3F8" Name="rtInfF" />
+    <Symbol Address="0x48046060" Name="rtIsInf" />
+    <Symbol Address="0x48046090" Name="rtIsInfF" />
+    <Symbol Address="0x480460C0" Name="rtIsNaN" />
+    <Symbol Address="0x48046110" Name="rtIsNaNF" />
+    <Symbol Address="0x4804C400" Name="rtMinusInf" />
+    <Symbol Address="0x4804C408" Name="rtMinusInfF" />
+    <Symbol Address="0x4804C3E0" Name="rtNaN" />
+    <Symbol Address="0x4804C3E8" Name="rtNaNF" />
+    <Symbol Address="0x48046000" Name="rt_InitInfAndNaN" />
+    <Symbol Address="0x48047F40" Name="rt_SimGetNextSampleHit" />
+    <Symbol Address="0x48047F10" Name="rt_SimInitTimingEngine" />
+    <Symbol Address="0x48047F50" Name="rt_SimUpdateDiscreteTaskSampleHits" />
+    <Symbol Address="0x48046160" Name="rt_ZCFcn" />
+    <Symbol Address="0x48042E10" Name="rt_modd_snf" />
+    <Symbol Address="0x4804C4A8" Name="rtiAssertionMode" />
+    <Symbol Address="0x48048B90" Name="rtiDataSetStorageEnabled" />
+    <Symbol Address="0x48047F60" Name="rti_assertion_handler" />
+    <Symbol Address="0x48047FF0" Name="rti_assertion_mode_msg" />
+    <Symbol Address="0x48047ED0" Name="rti_init" />
+    <Symbol Address="0x48046B00" Name="rti_th_timertask1_trigger_source" />
+    <Symbol Address="0x4804AF3C" Name="rtk_bind_interrupt" />
+    <Symbol Address="0x4804AE74" Name="rtk_create_task" />
+    <Symbol Address="0x4804AD94" Name="rtk_current_task_absolute_time_ptr_get" />
+    <Symbol Address="0x4804B17C" Name="rtk_default_overrun_fcn" />
+    <Symbol Address="0x4804AEDC" Name="rtk_enable_services" />
+    <Symbol Address="0x4804B13C" Name="rtk_enter_idle_mode" />
+    <Symbol Address="0x4804B11C" Name="rtk_get_subentry" />
+    <Symbol Address="0x48046AF0" Name="rtk_idle_function" />
+    <Symbol Address="0x4804B14C" Name="rtk_initialize" />
+    <Symbol Address="0x4804B024" Name="rtk_leave_idle_mode" />
+    <Symbol Address="0x4804AF24" Name="rtk_overrun_flag_clear" />
+    <Symbol Address="0x4804ADF4" Name="rtk_reset_tasks" />
+    <Symbol Address="0x4804AE3C" Name="rtk_set_task_type" />
+    <Symbol Address="0x4804ADDC" Name="rtk_setup_temp_overrun_handling" />
+    <Symbol Address="0x4804AE4C" Name="rtk_task_name_set" />
+    <Symbol Address="0x4804AEFC" Name="rtk_task_task_calls_get" />
+    <Symbol Address="0x4804B0C4" Name="rtk_task_task_name_get" />
+    <Symbol Address="0x480488C0" Name="scalbn" />
+    <Symbol Address="0x4804AC80" Name="simState" />
+    <Symbol Address="0x4804AD84" Name="sqrt" />
+    <Symbol Address="0x4804C434" Name="taskMode" />
+    <Symbol Address="0x4804AD4C" Name="ts_reset" />
+    <Symbol Address="0x4804B194" Name="vcm_module_register" />
+    <Symbol Address="0x4804C4C0" Name="xilapi_eesport_activeerrorset_uint32_T" />
+    <Symbol Address="0x4804C4BC" Name="xilapi_eesport_erroractivated_uint32_T" />
+    <Symbol Address="0x4804C4B8" Name="xilapi_eesport_errorswitching_uint32_T" />
+    <Symbol Address="0x4804C4B4" Name="xilapi_eesport_flags_uint32_T" />
+    <Symbol Address="0x4804C4B0" Name="xilapi_eesport_trigger_uint32_T" />
+  </Symbols>
+</NormalizedMapFile>

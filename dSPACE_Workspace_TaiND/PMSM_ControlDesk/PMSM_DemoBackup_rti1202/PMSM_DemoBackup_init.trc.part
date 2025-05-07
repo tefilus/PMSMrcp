@@ -1,0 +1,51 @@
+
+
+-- Type definitions for structures
+
+typedef PMSM_DemoBackup_struct_z8IL72b4r57TjkVvP5IoWE_InputPortsWidth_0 int(32)[2]
+
+struct PMSM_DemoBackup_struct_z8IL72b4r57TjkVvP5IoWE
+{
+  array-incr: -1
+}
+    structField0 
+    {
+      alias:   "InputPortsWidth"
+      type:    PMSM_DemoBackup_struct_z8IL72b4r57TjkVvP5IoWE_InputPortsWidth_0
+      offs:    -1
+    }
+endstruct
+
+struct PMSM_DemoBackup_struct_SPJi1DXfNcjd7Ee0UF7vjC
+{
+  array-incr: -1
+}
+    structField0 
+    {
+      alias:   "v"
+      type:    flt(64,IEEE)
+      offs:    -1
+    }
+endstruct
+
+struct PMSM_DemoBackup_struct_isB4Cw3Ovpp8VfzP6RUqbD
+{
+  array-incr: -1
+}
+    structField0 
+    {
+      alias:   "OutputPortsWidth"
+      type:    int(32)
+      offs:    -1
+    }
+endstruct
+
+
+-- Type definitions for arrays
+typedef PMSM_DemoBackup_ArrayDT0_6 flt(64,IEEE)[6]
+typedef PMSM_DemoBackup_ArrayDT0_3 flt(64,IEEE)[3]
+typedef PMSM_DemoBackup_ArrayDT0_2 flt(64,IEEE)[2]
+typedef PMSM_DemoBackup_ArrayDT0_2_3_Col col flt(64,IEEE)[2][3]
+typedef PMSM_DemoBackup_ArrayDT18_5 uint(8)[5]
+
+

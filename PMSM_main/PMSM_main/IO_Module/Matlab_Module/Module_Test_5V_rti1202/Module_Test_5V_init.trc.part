@@ -1,0 +1,24 @@
+
+
+-- Type definitions for structures
+
+struct Module_Test_5V_struct_isB4Cw3Ovpp8VfzP6RUqbD
+{
+  array-incr: -1
+}
+    structField0 
+    {
+      alias:   "OutputPortsWidth"
+      type:    int(32)
+      offs:    -1
+    }
+endstruct
+
+
+-- Type definitions for arrays
+typedef Module_Test_5V_ArrayDT0_16 flt(64,IEEE)[16]
+typedef Module_Test_5V_ArrayDT0_8 flt(64,IEEE)[8]
+typedef Module_Test_5V_ArrayDT8_8 uint(8)[8]
+typedef Module_Test_5V_ArrayDT8_16 uint(8)[16]
+
+

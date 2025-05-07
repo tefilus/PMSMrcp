@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ConfigurationDesk 6.7</creator>
+	<majorversion type="key">6</majorversion>
+	<minorversion type="key">7</minorversion>
+	<maintenanceversion type="key">0</maintenanceversion>
+	<specialbuildversion type="key"/>
+	<releasename type="key">2021-A</releasename>
+	<project>
+		<Creator type="key">ConfigurationDesk</Creator>
+		<MigrationHistory type="key"/>
+		<Name type="key">Project_ACMC_Motor_Brake_Demo.CDP</Name>
+		<DisplayName type="key">Project_ACMC_Motor_Brake_Demo</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">613814167</UniqueID>
+		<EntityID type="key">{2B95903E-F58C-4A5A-943A-C84D2B3C218E}</EntityID>
+		<ItemInfoDate type="key">03.03.2015 19:49:34</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAuthor type="key">demo</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">Project_ACMC_Motor_Brake_Demo</Name>
+			<DisplayName type="key">Project_ACMC_Motor_Brake_Demo</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">760633757</UniqueID>
+			<EntityID type="key">{3F4AA3A6-0BC6-42D4-8369-1F74A245FA57}</EntityID>
+			<ItemInfoDate type="key">03.03.2015 19:49:34</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAuthor type="key">demo</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.txt,.pdf,.xls,.csv,.rtf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">1034856799</UniqueID>
+				<EntityID type="key">{6765935D-BC54-4FED-B564-00FDF265ED93}</EntityID>
+				<ItemInfoDate type="key">03.03.2015 19:49:34</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.txt,.pdf,.xls,.csv,.rtf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">demo</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">63231436</UniqueID>
+				<EntityID type="key">{177894A6-C416-4F9F-BC2C-AD841748CB29}</EntityID>
+				<ItemInfoDate type="key">03.03.2015 19:49:34</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">demo</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<MigrationHistory type="key"/>
+			<Component type="key">ProjectApplication</Component>
+			<Name type="key">Application_001.CDL</Name>
+			<DisplayName type="key">Application_001</DisplayName>
+			<Path type="key">.\Application_001</Path>
+			<Flags type="key">8448</Flags>
+			<ExtendedFlags type="key">16</ExtendedFlags>
+			<Type type="key">14</Type>
+			<UniqueID type="key">918019383</UniqueID>
+			<EntityID type="key">{689922F7-DA09-4572-9776-ABB07EEBA91D}</EntityID>
+			<ItemInfoDate type="key">03.03.2015 19:49:34</ItemInfoDate>
+			<ItemInfoPath type="key">C:\Users\horstr\Documents\dSPACE\ConfigurationDeskRP\6.7\Project_ACMC_Motor_Brake_Demo\Application_001\Application_001.CDL</ItemInfoPath>
+			<ItemInfoLog type="key"/>
+			<ItemInfoAuthor type="key">demo</ItemInfoAuthor>
+		</item>
+		<item>
+			<Name type="key">AssociatedStorage.json</Name>
+			<DisplayName type="key">AssociatedStorage.json</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">260</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">883707634</UniqueID>
+			<EntityID type="key">{8396F77E-ACF3-4EE3-A3FA-930F06FCB0B6}</EntityID>
+			<ItemInfoDate type="key">6/5/2023 9:44:58 AM</ItemInfoDate>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">PC2</ItemInfoAuthor>
+		</item>
+	</project>
+	<experiments/>
+	<UserManager/>
+	<Interpreter>
+		<PythonVersion type="key">3.9</PythonVersion>
+	</Interpreter>
+	<ProjectExperiment/>
+	<ProjectApplication>
+		<applications>
+			<application>
+				<Name type="key">Application_001.CDL</Name>
+				<DisplayName type="key">Application_001</DisplayName>
+				<Path type="key">.\Application_001</Path>
+				<Component type="key">ProjectApplication</Component>
+				<Type type="key">14</Type>
+				<ApplicationType type="key">2</ApplicationType>
+				<Flags type="key">8448</Flags>
+				<ItemInfoDate type="key">03.03.2015 19:49:34</ItemInfoDate>
+				<ItemInfoPath type="key">C:\Users\horstr\Documents\dSPACE\ConfigurationDeskRP\6.7\Project_ACMC_Motor_Brake_Demo\Application_001\Application_001.CDL</ItemInfoPath>
+				<ItemInfoDocs type="key"/>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAuthor type="key">demo</ItemInfoAuthor>
+				<Log type="key"/>
+				<AddInfoDb type="key"/>
+				<DatabaseID type="key">-1</DatabaseID>
+				<EntityID type="key">{689922F7-DA09-4572-9776-ABB07EEBA91D}</EntityID>
+			</application>
+		</applications>
+		<LastActiveApplication type="key">Application_001</LastActiveApplication>
+	</ProjectApplication>
+	<PlatformManagement/>
+	<configurationmanager/>
+</Root>

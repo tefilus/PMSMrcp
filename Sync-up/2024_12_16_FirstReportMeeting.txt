@@ -1,0 +1,9 @@
+2024_12_16
+dSPACE sync-up
+=========================================
+1. ASM: automotive simulation model
+	- a tool suit for simulation
+	-
+2. HIL: hardware in loop
+ 	- a test and simulation technique
+	- test real ECU in simulated evironment

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Root><creator type="key">ConfigurationDesk RP 6.0</creator><application><Name type="key">Application_001.CDL</Name><DisplayName type="key">Application_001</DisplayName><Path type="key">.\Application_001</Path><Component type="key">ProjectApplication</Component><Type type="key">14</Type><ApplicationType type="key">2</ApplicationType><Flags type="key">41216</Flags><ItemInfo type="key">Location: C:\Users\demo\Documents\dSPACE\ConfigurationDeskRP\6.0\Project_ACMC_Motor_Brake_Demo\Application_001\Application_001.CDL
+Author: demo
+Date: 03.03.2015 19:49:34
+Description:
+
+\EDIT\================================
+
+</ItemInfo><item><Name type="key">Application_001</Name><DisplayName type="key">Application_001</DisplayName><Path type="key">..</Path><Flags type="key">260</Flags><ExtendedFlags type="key">0</ExtendedFlags><Type type="key">3</Type><ItemInfo type="key">Author: demo
+Date: 03.03.2015 19:49:34
+Description:
+
+\EDIT\================================
+
+</ItemInfo><Targets><Components type="key">projectapplication</Components></Targets><item><Name type="key">Hardware Topology</Name><DisplayName type="key">Hardware Topology</DisplayName><Path type="key">.</Path><Flags type="key">260</Flags><ExtendedFlags type="key">0</ExtendedFlags><Type type="key">3</Type><ItemInfo type="key">Author: demo
+Date: 03.03.2015 19:49:34
+Description:
+
+\EDIT\================================
+
+</ItemInfo><Targets><Components type="key">configurationmanager</Components><Files type="key">.htf</Files></Targets><item><Name type="key">HardwareTopology.htf</Name><DisplayName type="key">Hardware Topology</DisplayName><Path type="key">.\Hardware Topology</Path><Component type="key">configurationmanager</Component><Flags type="key">256</Flags><ExtendedFlags type="key">0</ExtendedFlags><Type type="key">15</Type><ItemInfo type="key">Location: C:\Users\demo\Documents\dSPACE\ConfigurationDeskRP\6.0\Project_ACMC_Motor_Brake_Demo\Application_001\Hardware Topology\HardwareTopology.htf
+Author: demo
+Date: 03.03.2015 19:49:35
+Description:
+
+\EDIT\================================
+
+</ItemInfo><Targets/></item></item><item><Name type="key">Configuration</Name><DisplayName type="key">Configuration</DisplayName><Path type="key">.</Path><Flags type="key">260</Flags><ExtendedFlags type="key">0</ExtendedFlags><Type type="key">3</Type><ItemInfo type="key">Author: demo
+Date: 03.03.2015 19:49:34
+Description:
+
+\EDIT\================================
+
+</ItemInfo><Targets><Components type="key">configurationmanager</Components><Files type="key">.cds</Files></Targets><item><Name type="key">Configuration.cds</Name><DisplayName type="key">Configuration</DisplayName><Path type="key">.\Configuration</Path><Component type="key">configurationmanager</Component><Flags type="key">256</Flags><ExtendedFlags type="key">0</ExtendedFlags><Type type="key">20</Type><ItemInfo type="key">Location: C:\Users\demo\Documents\dSPACE\ConfigurationDeskRP\6.0\Project_ACMC_Motor_Brake_Demo\Application_001\Configuration\Configuration.cds
+Author: demo
+Date: 03.03.2015 19:49:38
+Description:
+
+\EDIT\================================
+
+</ItemInfo><Targets/></item></item><item><Name type="key">Custom Configuration</Name><DisplayName type="key">Custom Configuration</DisplayName><Path type="key">.</Path><Flags type="key">260</Flags><ExtendedFlags type="key">0</ExtendedFlags><Type type="key">3</Type><ItemInfo type="key">Author: demo
+Date: 03.03.2015 19:49:34
+Description:
+
+\EDIT\================================
+
+</ItemInfo><Targets><Components type="key">customconfiguration</Components><Files type="key">.xml</Files></Targets><item><Name type="key">CFGMWis.xml</Name><DisplayName type="key">CustomViews</DisplayName><Path type="key">.\Custom Configuration</Path><Flags type="key">260</Flags><ExtendedFlags type="key">0</ExtendedFlags><Type type="key">4</Type><ItemInfo type="key">Location: C:\Users\demo\Documents\dSPACE\ConfigurationDeskRP\6.0\Project_ACMC_Motor_Brake_Demo\Application_001\Custom Configuration\CFGMWis.xml
+Author: demo
+Date: 03.03.2015 19:49:34
+Description:
+
+\EDIT\================================
+
+</ItemInfo><Targets/></item></item></item></application></Root>

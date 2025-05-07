@@ -1,0 +1,992 @@
+-- ****************************************************************************
+--
+--  Trace file: Module_Test_5V.trc
+--
+--  RTI1202 7.15 (02-Nov-2020)
+--  Mon Jun 10 11:21:27 2024
+--
+--  Copyright 2024, dSPACE GmbH. All rights reserved.
+--
+-- ****************************************************************************
+--
+--  Used options:
+--    TRCGenerateVirtualBlocks      = 0
+--    TRCGenerateLabels             = 0
+--    TRCGenerateStates             = 0
+--    TRCGenerateDerivatives        = 0
+--    TRCGenerateParamValues        = 0
+--    TRCGenerateApplicationKeyword = 0
+--    TRCOnlyGlobals                = 0
+--    TRCIsOmitVdOn                 = 0
+--
+--  Trace file format: 3
+
+-- ******** Keywords **********************************************************
+-- _application "Module_Test_5V.map"
+
+_genname     "RTI"
+_genversion  "7.15"
+_gendate     "06/10/2024 11:21:29"
+_description ""
+_author      "RTI1202 7.15 (02-Nov-2020)"
+_model       "Module_Test_5V"
+
+-- Default data type formats
+_floating_point_type(64,IEEE)
+_integer_type(32)
+
+-- No Data Capture blocks within model: use base sample time as sampling period
+sampling_period[0]
+{
+  value:       0.001
+  alias:       "HostService"
+  increment:   0.001
+  unit:        "s"
+}
+
+
+
+-- Type definitions for structures
+
+struct Module_Test_5V_struct_isB4Cw3Ovpp8VfzP6RUqbD
+{
+  array-incr: 4         
+}
+    structField0 
+    {
+      alias:   "OutputPortsWidth"
+      type:    int(32)
+      offs:    0
+    }
+endstruct
+
+
+-- Type definitions for arrays
+typedef Module_Test_5V_ArrayDT0_16 flt(64,IEEE)[16]
+typedef Module_Test_5V_ArrayDT0_8 flt(64,IEEE)[8]
+typedef Module_Test_5V_ArrayDT8_8 uint(8)[8]
+typedef Module_Test_5V_ArrayDT8_16 uint(8)[16]
+
+
+-- ******** Simulation control variables **************************************
+
+finalTime
+{
+ type:  flt(64,IEEE)*
+ alias: "finalTime"
+ desc:  "Simulation stop time. When reached, simState switches to STOP."
+ flags:  READONLY
+ unit:  "s"
+ addr:    0x48045CC4
+}
+
+currentTime
+{
+ type:  flt(64,IEEE)*
+ alias: "currentTime"
+ desc:  "Current simulation time. Increments with execution of Timer Task 1."
+ flags: READONLY
+ unit:  "s"
+ addr:    0x48045CC0
+}
+
+modelStepSize
+{
+ type:  flt(64,IEEE)
+ alias: "modelStepSize"
+ desc:  "Fixed step size of the model, sample time of Timer Task 1."
+ flags: READONLY
+ unit:  "s"
+ addr:    0x48045CC8
+}
+
+simState
+{
+ type:  int(32)
+ alias: "simState"
+ desc:  "Simulation state: STOP=0 RUN=2"
+ unit:  "-"
+ addr:    0x480453A8
+}
+
+p_msg_last_error_no
+{
+ type:  uint(32)*
+ alias: "errorNumber"
+ desc:  "Error number of last error message (zero if no error)."
+ unit:  "-"
+ flags: READONLY
+ addr:    0x48044524
+}
+
+p_dsts_sum_of_reset_time
+{
+ type:  flt(64,IEEE)*
+ alias: "sumOfResetTime"
+ desc:  "Internal variable for summing up reset time."
+ unit:  "s"
+ flags: READONLY|HIDDEN
+ addr:    0x48044520
+}
+
+
+-- ******** Task Information variables ****************************************
+group "Task Info"
+{
+ 
+}
+  group "Timer Task 1"
+  {
+   
+  }
+
+  pRti_TIMERA_STime
+  {
+   type:  flt(64,IEEE)*
+   alias: "sampleTime"
+   flags: READONLY
+		 addr:    0x48045D08
+		}
+  pRti_TIMERA_TTime
+  {
+   type:  flt(64,IEEE)*
+   alias: "turnaroundTime"
+   flags: READONLY
+ addr:    0x48045D0C
+}
+  pRti_TIMERA_TState
+  {
+   type:  int(32)*
+   alias: "state"
+   flags: READONLY
+ addr:    0x48045D10
+}
+  pRti_TIMERA_OType
+  {
+   type:  int(32)*
+   alias: "overrunCheckType"
+   flags: READONLY
+		 addr:    0x48045D14
+		}
+  pRti_TIMERA_OMax
+  {
+   type:  int(32)*
+   alias: "overrunQueueMax"
+   flags: READONLY
+ addr:    0x48045D18
+}
+  pRti_TIMERA_ORpt
+  {
+   type:  int(32)*
+   alias: "overrunQueueCount"
+   flags: READONLY
+ addr:    0x48045D1C
+}
+  pRti_TIMERA_OCnt
+  {
+   type:  int(32)*
+   alias: "overrunCount"
+   flags: READONLY
+ addr:    0x48045D20
+}
+  pRti_TIMERA_TCnt
+  {
+   type:  flt(64,IEEE)*
+   alias: "taskCallCount"
+   flags: READONLY
+ addr:    0x48045D24
+}
+  pRti_TIMERA_Prio
+  {
+   type:  int(32)*
+   alias: "priority"
+   flags: READONLY
+ addr:    0x48045D28
+}
+  endgroup
+
+
+endgroup
+
+
+-- ******** Model variables ***************************************************
+
+group "Model Root"
+  
+  
+	group "ANALOG_IN" -- subsystem-group
+
+
+
+		group "Gain" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[1]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+			p_1_Module_Test_5V_real_T_0[0]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Gain"
+
+		group "Gain1" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[3]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+			p_1_Module_Test_5V_real_T_0[1]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Gain1"
+
+		group "Gain2" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[5]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+			p_1_Module_Test_5V_real_T_0[2]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Gain2"
+
+		group "Gain3" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[7]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+			p_1_Module_Test_5V_real_T_0[3]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Gain3"
+
+		group "Gain4" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[9]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+		 addr:    0x48045CB0
+		}
+			p_1_Module_Test_5V_real_T_0[4]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Gain4"
+
+		group "Gain5" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[11]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+			p_1_Module_Test_5V_real_T_0[5]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Gain5"
+
+		group "Gain6" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[13]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+			p_1_Module_Test_5V_real_T_0[6]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Gain6"
+
+		group "Gain7" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[15]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+			p_1_Module_Test_5V_real_T_0[7]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Gain7"
+
+  
+  
+		group "ADC_CLASS2_BL1" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[0]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL1"
+  
+  
+		group "ADC_CLASS2_BL2" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[2]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL2"
+  
+  
+		group "ADC_CLASS2_BL3" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[4]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL3"
+  
+  
+		group "ADC_CLASS2_BL4" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[6]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL4"
+  
+  
+		group "ADC_CLASS2_BL5" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[8]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL5"
+  
+  
+		group "ADC_CLASS2_BL6" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[10]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL6"
+  
+  
+		group "ADC_CLASS2_BL7" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[12]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL7"
+  
+  
+		group "ADC_CLASS2_BL8" -- subsystem-group
+
+			p_0_Module_Test_5V_real_T_0[14]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "ADC"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+
+		endgroup -- subsystem-group "ADC_CLASS2_BL8"
+
+
+	endgroup -- subsystem-group "ANALOG_IN"
+  
+  
+	group "ANALOG_OUT" -- subsystem-group
+
+
+
+		group "Constant" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[8]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Value"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Constant"
+
+		group "Data Type Conversion" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_real_T_0[32]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+
+
+		endgroup -- block-group "Data Type Conversion"
+
+		group "Gain" -- block-group
+		{
+		 block: "Gain"
+		}
+			p_0_Module_Test_5V_real_T_0[16]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+			p_1_Module_Test_5V_real_T_0[24]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Gain"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Gain"
+
+  
+  
+		group "DAC_CLASS1_BL1" -- subsystem-group
+
+
+		endgroup -- subsystem-group "DAC_CLASS1_BL1"
+
+
+	endgroup -- subsystem-group "ANALOG_OUT"
+  
+  
+	group "DIGITAL_IN" -- subsystem-group
+
+
+
+		group "Data Type Conversion" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_real_T_0[48]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB0
+			}
+
+
+		endgroup -- block-group "Data Type Conversion"
+
+  
+  
+		group "DIO_CLASS1_BIT_IN_BL1" -- subsystem-group
+
+			p_0_Module_Test_5V_boolean_T_1[0]
+			{
+			 type:    Module_Test_5V_ArrayDT8_8*
+			 alias:   "Out"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB4
+}
+
+		endgroup -- subsystem-group "DIO_CLASS1_BIT_IN_BL1"
+
+
+	endgroup -- subsystem-group "DIGITAL_IN"
+  
+  
+	group "DIGITAL_OUT" -- subsystem-group
+
+
+
+		group "Constant" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[25]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Value"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Constant"
+
+		group "Constant1" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[44]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Value"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Constant1"
+
+		group "Constant2" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[61]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Value"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Constant2"
+
+		group "Constant3" -- block-group
+		{
+		 block: "Constant"
+		}
+			-- Skipping output Out1
+			p_1_Module_Test_5V_real_T_0[72]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Value"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Constant3"
+
+		group "Data Type Conversion" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_boolean_T_1[24]
+			{
+			 type:    Module_Test_5V_ArrayDT8_16*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB4
+}
+
+
+		endgroup -- block-group "Data Type Conversion"
+
+		group "Data Type Conversion1" -- block-group
+		{
+		 block: "DataTypeConversion"
+		}
+			p_0_Module_Test_5V_boolean_T_1[48]
+			{
+			 type:    Module_Test_5V_ArrayDT8_8*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB4
+}
+
+
+		endgroup -- block-group "Data Type Conversion1"
+
+		group "NOT" -- block-group
+		{
+		 block: "Logic"
+		}
+			p_0_Module_Test_5V_boolean_T_1[8]
+			{
+			 type:    Module_Test_5V_ArrayDT8_16*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+			 addr:    0x48045CB4
+			}
+
+
+		endgroup -- block-group "NOT"
+
+		group "NOT1" -- block-group
+		{
+		 block: "Logic"
+		}
+			p_0_Module_Test_5V_boolean_T_1[40]
+			{
+			 type:    Module_Test_5V_ArrayDT8_8*
+			 alias:   "Out1"
+			 range:   < 0 ; 1 >
+			 bitmask: 0x01
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB4
+}
+
+
+		endgroup -- block-group "NOT1"
+
+		group "Step" -- block-group
+		{
+		 block: "Step"
+		}
+			p_0_Module_Test_5V_real_T_0[56]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+		 addr:    0x48045CB0
+		}
+			p_1_Module_Test_5V_real_T_0[41]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Time"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+			p_1_Module_Test_5V_real_T_0[42]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Before"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+			p_1_Module_Test_5V_real_T_0[43]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "After"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Step"
+
+		group "Step1" -- block-group
+		{
+		 block: "Step"
+		}
+			p_0_Module_Test_5V_real_T_0[73]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+		 addr:    0x48045CB0
+		}
+			p_1_Module_Test_5V_real_T_0[69]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Time"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+			p_1_Module_Test_5V_real_T_0[70]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Before"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+			p_1_Module_Test_5V_real_T_0[71]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "After"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Step1"
+
+		group "Switch" -- block-group
+		{
+		 block: "Switch"
+		}
+			p_0_Module_Test_5V_real_T_0[57]
+			{
+			 type:    Module_Test_5V_ArrayDT0_16*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+			p_1_Module_Test_5V_real_T_0[60]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Threshold"
+			 flags:   PARAM
+			 addr:    0x48045CB8
+			}
+
+
+		endgroup -- block-group "Switch"
+
+		group "Switch1" -- block-group
+		{
+		 block: "Switch"
+		}
+			p_0_Module_Test_5V_real_T_0[74]
+			{
+			 type:    Module_Test_5V_ArrayDT0_8*
+			 alias:   "Out1"
+			 flags:   OUTPUT|READONLY
+ addr:    0x48045CB0
+}
+			p_1_Module_Test_5V_real_T_0[80]
+			{
+			 type:    flt(64,IEEE)*
+			 alias:   "Threshold"
+			 flags:   PARAM
+ addr:    0x48045CB8
+}
+
+
+		endgroup -- block-group "Switch1"
+
+  
+  
+		group "DIO_CLASS1_BIT_OUT_BL1" -- subsystem-group
+
+
+		endgroup -- subsystem-group "DIO_CLASS1_BIT_OUT_BL1"
+  
+  
+		group "DIO_CLASS1_BIT_OUT_BL2" -- subsystem-group
+
+
+		endgroup -- subsystem-group "DIO_CLASS1_BIT_OUT_BL2"
+
+
+	endgroup -- subsystem-group "DIGITAL_OUT"
+  
+  
+	group "DS1202_SENSOR_SUPPLY" -- subsystem-group
+
+
+	endgroup -- subsystem-group "DS1202_SENSOR_SUPPLY"
+  
+  
+	group "RTI Data" -- subsystem-group
+
+
+	endgroup -- subsystem-group "RTI Data"
+
+
+
+endgroup -- "Model Root"
+-- ******** Tunable Parameters ************************************************
+
+group "Tunable Parameters"
+
+
+endgroup
+
+-- ******** State Machine Data ************************************************
+
+-- No Stateflow chart within the model.
+
+
+-- ******** Labels ************************************************************
+
+-- Generation of labels turned off with TRCGenerateLabels option.
+
+-- ******** RTT Dynamic Variables *********************************************
+
+group "RTT Dynamic Variables"
+
+endgroup
+
+-- ******** User variables from model_usr.trc *********************************
+
+-- RTI_USR_TRC_BEGIN
+
+-- No user file Module_Test_5V_usr.trc found.
+
+-- RTI_USR_TRC_END
+
+-- ******** EESPort States Variables ******************************************
+group "XIL API"
+{ 
+  
+}
+
+  group "EESPort"
+  {  
+    
+  }
+
+    p_xilapi_eesport_activeerrorset_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Active ErrorSet"
+      desc:    "Index of active ErrorSet or 0 if no ErrorSet is active."
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+			 addr:    0x480453C4
+			}
+
+    p_xilapi_eesport_erroractivated_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Error Activated"
+      desc:    "0 - no error is activated on hardware, 1 - at least one error is activated on hardware."  
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 1 >
+			 addr:    0x480453C0
+			}
+
+    p_xilapi_eesport_errorswitching_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Error Switching"
+      desc:    "0 - no switching operation running on hardware, 1 -  switching operation running on hardware."
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 1 >
+		 addr:    0x480453BC
+		}
+
+    xilapi_eesport_flags_uint32_T
+    {
+      type:    uint(32)
+      alias:   "Flags"
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+ addr:    0x48045D38
+}
+
+    xilapi_eesport_trigger_uint32_T
+    {
+      type:    uint(32)
+      alias:   "Trigger"
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+			 addr:    0x48045D34
+			}
+
+    endgroup -- "EESPort"
+
+endgroup -- "XILAPI"
+
+
+
+-- ******** [EOF] *************************************************************
+

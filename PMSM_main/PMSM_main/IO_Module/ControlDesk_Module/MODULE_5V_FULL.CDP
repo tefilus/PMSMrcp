@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk 7.4</creator>
+	<majorversion type="key">7</majorversion>
+	<minorversion type="key">4</minorversion>
+	<maintenanceversion type="key">0</maintenanceversion>
+	<specialbuildversion type="key"/>
+	<releasename type="key">2021-A</releasename>
+	<project>
+		<Creator type="key">ControlDesk</Creator>
+		<MigrationHistory type="key"/>
+		<Name type="key">MODULE_5V_FULL.CDP</Name>
+		<DisplayName type="key">MODULE_5V_FULL</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">358049461</UniqueID>
+		<EntityID type="key">{67993800-3F82-4D55-899A-260A8DA633F2}</EntityID>
+		<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">MODULE_5V_FULL</Name>
+			<DisplayName type="key">MODULE_5V_FULL</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">661936258</UniqueID>
+			<EntityID type="key">{7A81966E-7944-423B-8636-9329F58CC462}</EntityID>
+			<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.docx,.pdf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">384684946</UniqueID>
+				<EntityID type="key">{30E1F566-5E06-4598-8219-9ACF1DD10CCA}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.docx,.pdf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">24893265</UniqueID>
+				<EntityID type="key">{8F657F27-1653-4E5E-9E00-31A100C579D6}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">98100829</UniqueID>
+				<EntityID type="key">{11DE884F-B9DB-4E56-B9D3-2C21F97F2061}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">MODULE_5V_FULL.vdb</Name>
+					<DisplayName type="key">D:\LabBox\MODULE_5V_FULL\Variable Descriptions\MODULE_5V_FULL.vdb</DisplayName>
+					<Path type="key">.\Variable Descriptions</Path>
+					<Flags type="key">276</Flags>
+					<Type type="key">18</Type>
+					<UniqueID type="key">585098666</UniqueID>
+					<EntityID type="key">{27342E8A-3CAF-40A3-91AB-D0EC21809966}</EntityID>
+					<ItemInfoDate type="key">6/10/2024 11:23:01 AM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">module_test_5v.sdf</Name>
+					<DisplayName type="key">module_test_5v.sdf</DisplayName>
+					<Path type="key">.\Variable Descriptions\module_test_5v.sdf</Path>
+					<Flags type="key">18704</Flags>
+					<Type type="key">7</Type>
+					<UniqueID type="key">263714472</UniqueID>
+					<EntityID type="key">{09B76B13-A13D-436A-801D-ABCDB1DAC13C}</EntityID>
+					<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Original file added from ..\..\Set\Test_Module_5V_DIO\module_test_5v.sdf [2024-06-10 04:21:32 (UTC)]
+</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">module_test_5v.trc</Name>
+						<DisplayName type="key">module_test_5v.trc</DisplayName>
+						<Path type="key">.\Variable Descriptions\module_test_5v.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">502122826</UniqueID>
+						<EntityID type="key">{2D055B34-510D-4329-B82E-1542D0B2EFD9}</EntityID>
+						<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">module_test_5v.map</Name>
+						<DisplayName type="key">module_test_5v.map</DisplayName>
+						<Path type="key">.\Variable Descriptions\module_test_5v.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">330762377</UniqueID>
+						<EntityID type="key">{092A84CD-1A13-4249-97CD-A5E54A47D669}</EntityID>
+						<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">module_test_5v.rta</Name>
+						<DisplayName type="key">module_test_5v.rta</DisplayName>
+						<Path type="key">.\Variable Descriptions\module_test_5v.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">30</Type>
+						<UniqueID type="key">296845795</UniqueID>
+						<EntityID type="key">{D80E05F3-89CE-4448-A848-FA9903920121}</EntityID>
+						<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">.vfe</Targets>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">2304</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">588695084</UniqueID>
+				<EntityID type="key">{7445F2E7-2B45-4094-9D96-C04DAEB2BF4C}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">800843570</UniqueID>
+				<EntityID type="key">{2ADDC8B4-98DD-4A57-A0FB-2631BE94AD45}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">interpreter,.py</Targets>
+				<Docs type="key">.py</Docs>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">432443820</UniqueID>
+				<EntityID type="key">{E146F7C2-FB57-414E-B8AA-11FAAE02331A}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.py</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Description Sets</Name>
+				<DisplayName type="key">Signal Description Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">148728084</UniqueID>
+				<EntityID type="key">{F99ACCF4-50B1-49FF-BFB5-F9E0E484DB10}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">AutomationCustomData.json</Name>
+			<DisplayName type="key">AutomationCustomData.json</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">24346615</UniqueID>
+			<EntityID type="key">{7F982F2D-E554-4A94-95FB-666675EB712D}</EntityID>
+			<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<ExtendedFlags type="key">4</ExtendedFlags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">246023002</UniqueID>
+			<EntityID type="key">{309381F3-E414-4F79-961E-BF3BB3C8F5E9}</EntityID>
+			<ItemInfoDate type="key">6/10/2024 11:23:01 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			<item>
+				<Name type="key">Project.events</Name>
+				<DisplayName type="key">Project.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">881374046</UniqueID>
+				<EntityID type="key">{03A53E33-54D8-4902-8AAE-ADDBA5D5BB90}</EntityID>
+				<ItemInfoDate type="key">6/10/2024 11:23:01 AM</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+			</item>
+		</item>
+	</project>
+	<experiments>
+		<experiment>
+			<Creator type="key">ControlDesk</Creator>
+			<MigrationHistory type="key"/>
+			<Name type="key">Test_Digital_Out.CDE</Name>
+			<DisplayName type="key">Test_Digital_Out</DisplayName>
+			<Path type="key">.\Test_Digital_Out</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">325495027</UniqueID>
+			<EntityID type="key">{6C08CB00-BD56-4522-85F2-85EF9C3B449E}</EntityID>
+			<ItemInfoDate type="key">6/10/2024 11:23:00 AM</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">Admin</ItemInfoAuthor>
+		</experiment>
+	</experiments>
+	<BusNavigator/>
+	<VariablesManagement/>
+	<UserManager/>
+	<XILAPIEESPort/>
+	<SignalEditor/>
+	<Interpreter>
+		<PythonVersion type="key">3.9</PythonVersion>
+	</Interpreter>
+	<ProjectExperiment>
+		<LastActiveExperiment type="key">Test_Digital_Out</LastActiveExperiment>
+	</ProjectExperiment>
+	<Instrumentation Version="1">
+		<UniqueIds Version="3">
+			<Count type="key">2</Count>
+			<File1 type="key">Test_Digital_Out/DIGITAL_ANALOG_OUT</File1>
+			<Id1 type="key">1</Id1>
+			<File2 type="key">Test_Digital_Out/ANALOG INPUT</File2>
+			<Id2 type="key">2</Id2>
+		</UniqueIds>
+	</Instrumentation>
+	<DiagnosticsManagement/>
+	<PlatformManagement/>
+	<MeasurementConfiguration/>
+	<MeasureDataManagement/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<AutomaticDownload/>
+	</DataSetManager>
+</Root>
